@@ -1,6 +1,8 @@
-# Hangman_ChromeExtension
+# Hangman Chrome Extension
 
-A simple Hangman game as a Chrome extension
+<img width="82" alt="image" src="https://github.com/sudarshana/Hangman_ChromeExtension/assets/1330981/192690a4-5f2a-47da-9c93-aa6f3940bce8">
+
+A simple Hangman game as a Chrome extension. 
 
 The source code consists of four files working together to create a Hangman game as a browser extension. 
 
@@ -9,4 +11,4 @@ The source code consists of four files working together to create a Hangman game
 3. The **JavaScript file** drives the game logic, allowing players to guess letters and words while updating the interface based on correct and incorrect guesses. It fetches words from an external API, chooses a random word, handles user interactions, displays messages, and manages the game's state. Additionally, it dynamically updates the interface to reveal guessed letters and the hidden word, providing feedback when a player wins or loses.
 4. The **Manifest file** defines the configuration for the browser extension, specifying its name, version, description, and permissions required.
 
-Find the [Hangman Chrome Extension](https://chrome.google.com/webstore/detail/hangman-chrome-extension/oloidjemckghkoacakpmmgkejefhjdno) at the Chrome Web Store. 
+Find the [Hangman Chrome Extension](https://chrome.google.com/webstore/detail/hangman-chrome-extension/oloidjemckghkoacakpmmgkejefhjdno) at the Chrome Web Store. Created with the help of ChatGPT for Taffy Games. 

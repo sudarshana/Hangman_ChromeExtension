@@ -1,0 +1,48 @@
+<!-- Define the document type as HTML5 -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Include an external stylesheet named "popup.css" -->
+    <link rel="stylesheet" href="popup.css">
+    
+    <!-- Include an external JavaScript file named "popup.js" and defer its execution -->
+    <script src="popup.js" defer></script>
+  </head>
+  <body>
+    <!-- Level 1 heading for the game title -->
+    <h1>Hangman</h1>
+    
+    <!-- A container for displaying the hidden word to guess -->
+    <div id="word"></div>
+    
+    <!-- Container for input fields related to letter guessing -->
+    <div class="input-container">
+      <!-- Input field for entering a single letter guess -->
+      <input type="text" id="guess" maxlength="1" placeholder="Letter guess" />
+      
+      <!-- Button to submit the letter guess -->
+      <button id="submitGuess">Guess Letter</button>
+    </div>
+    
+    <!-- Container for input fields related to word guessing -->
+    <div class="input-container">
+      <!-- Input field for entering a complete word guess -->
+      <input type="text" id="wordGuess" placeholder="Word guess" />
+      
+      <!-- Button to submit the word guess -->
+      <button id="submitWordGuess">Guess Word</button>
+    </div>
+    
+    <!-- Container to display game messages -->
+    <div id="message"></div>
+    
+    <!-- Display a label for guessed letters -->
+    <div>Guessed letters:</div>
+    
+    <!-- Ordered list to display guessed letters -->
+    <ol id="guessedLetters"></ol>
+    
+    <!-- Button to reset the game -->
+    <button id="reset">Reset Game</button>
+  </body>
+</html>

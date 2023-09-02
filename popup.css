@@ -1,0 +1,56 @@
+/* Styling for the extension */
+body {
+  font-family: Arial, sans-serif; 
+  margin: 10px; /* Margin around the body */
+  width: 300px; /* Width of the body content */
+}
+
+/* Styling for level 1 headings */
+h1 {
+  margin-bottom: 20px; /* Bottom margin for separation */
+}
+
+/* Styling for element with ID "word" */
+#word {
+  font-size: 24px; /* Larger font size */
+  font-weight: bold; /* Bold font weight */
+  margin-bottom: 20px; /* Bottom margin for separation */
+}
+
+/* Styling for elements with class "input-container" */
+.input-container {
+  display: flex; /* Use flex layout */
+  margin-bottom: 10px; /* Bottom margin for separation */
+}
+
+/* Styling for an element with ID "guess" within ".input-container" */
+#guess {
+  flex-grow: 1; /* Grow to fill available space */
+  margin-right: 10px; /* Right margin for separation */
+}
+
+/* Styling for element with ID "message" */
+#message {
+  margin-bottom: 20px; /* Bottom margin for separation */
+}
+
+/* Styling for buttons */
+button {
+  background-color: #007bff; /* Blue background color */
+  border: none; /* No border */
+  border-radius: 5px; /* Rounded corners */
+  color: white; /* White text color */
+  cursor: pointer; /* Cursor changes to pointer on hover */
+  font-size: 16px; /* Font size */
+  padding: 5px 10px; /* Padding inside the button */
+}
+
+/* Styling for buttons on hover */
+button:hover {
+  background-color: #0056b3; /* Darker blue background color */
+}
+
+/* Styling for buttons on active (clicked) state */
+button:active {
+  background-color: #004085; /* Even darker blue background color */
+}

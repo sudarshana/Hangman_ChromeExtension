@@ -8,4 +8,4 @@ The source code consists of four files working together to create a Hangman game
 * The **JavaScript file** drives the game logic, allowing players to guess letters and words while updating the interface based on correct and incorrect guesses. It fetches words from an external API, chooses a random word, handles user interactions, displays messages, and manages the game's state. Additionally, it dynamically updates the interface to reveal guessed letters and the hidden word, providing feedback when a player wins or loses.
 * The **Manifest file** defines the configuration for the browser extension, specifying its name, version, description, and permissions required.
 
-Find [Hangman Chrome Extension] (https://chrome.google.com/webstore/detail/hangman-chrome-extension/oloidjemckghkoacakpmmgkejefhjdno) at the Chrome Web Store. 
+Find **[Hangman Chrome Extension]**(https://chrome.google.com/webstore/detail/hangman-chrome-extension/oloidjemckghkoacakpmmgkejefhjdno) at the Chrome Web Store. 
